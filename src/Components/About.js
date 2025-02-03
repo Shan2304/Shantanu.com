@@ -26,7 +26,7 @@ function About() {
        Placed as a <span>Associate Software Developer </span> at  <span> Unthinkable Solutions</span>
       </p>*/}
       <p>
-        Pursuing <span>B.Tech(ECE) </span> from <span> I. K. Gujral Punjab Technical University </span> , Punjab
+        Completed <span>B.Tech(ECE) </span> from <span> I. K. Gujral Punjab Technical University </span> , Punjab
       </p>
       <p className="res-1280">
         Completed <span>Full-Stack Web Development</span> using
