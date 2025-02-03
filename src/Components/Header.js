@@ -212,7 +212,7 @@ function Header() {
         <div className="left">
           <h1>Hello</h1>
           <h1>
-            I'm <p ref={nameTyper}>Shan,</p>
+            I'm <p ref={nameTyper}>Shan.....</p>
           </h1>
           <h2>
             Programmer <br /> <span>Web Developer</span>
