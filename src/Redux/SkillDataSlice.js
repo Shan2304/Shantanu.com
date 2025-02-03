@@ -19,7 +19,10 @@ import P_1 from "../Media/random-pass/pas-2.png";
 import P_2 from "../Media/random-pass/pas-1.png";
 import C_1 from "../Media/chair-page/chair-1.png";
 import C_2 from "../Media/chair-page/chair-2.png";
-import C_3 from "../Media/chair-page/chair-3.png"
+import C_3 from "../Media/chair-page/chair-3.png";
+import D_1 from "../Media/sky-1.png";
+import shan from "../Media/DOCUSIGN.png";
+
 
 const initialState = {
   dataList: [
@@ -31,7 +34,10 @@ const initialState = {
     { title: "CSS", value: 95 },
     { title: "Git", value: 90 },
     { title: "DSA", value: 85 },
+    { title: "Next.js", value: 90},
+    { title: "Nest.js", value: 90 },
     { title: "TeamWork", value: 85 },
+    
   ],
   skillLearning: [
     {
@@ -75,15 +81,7 @@ const initialState = {
       SKILLS LEARN :about the human rights, social konwledge, how to government work ,how to police work ,etc... `,
     },
     
-    {
-      title: "web developer intern",
-      place: "CodSoft,Kolkata,india",
-      placeLink: "",
-      duration: "10-aug to 10-sept 2023",
-      desc: `Gain hands-on experience in web development by assisting in designing, coding, and maintaining websites and web applications.
-      Collaborate with a team to learn and implement web technologies, troubleshoot issues, and contribute to web projects' success.
-      Develop your skills in HTML, CSS, JavaScript, and other relevant technologies under the guidance of experienced developers.. `,
-    },
+   
     
     {
       title: "Java Trainee",
@@ -94,14 +92,6 @@ const initialState = {
       || SKILLS LEARN: Core Java · Personality Development `,
     },
     
-    
-    {
-      title: "As Full Stack Web Developer",
-      place: "Freelancing",
-      placeLink: "",
-      duration: "Duration depends upon Project",
-      desc: `As of now I'm comfortable to make new projects related to Web-Development and also freelancing is the best way to start your development journey.`,
-    },
   ],
   contact: [
     {
@@ -120,12 +110,32 @@ const initialState = {
       icon: ["fa-brands", "fa-square-github"],
     },
     {
-      title: "Do Connect on LinkedIn",
+      title: "LinkedIn",
       link: "https://www.linkedin.com/in/shantanu-kumar-kushwaha-437521204/",
       icon: ["fa-brands", "fa-linkedin"],
     },
   ],
   projects: [
+
+    {
+      title: "DOCUSIGN",
+      responsive: "Yes",
+      codeLink: "https://github.com/Shan2304/frontendupdated",
+      deployed: "Yes",
+      /*deployedIn: "----",*/
+      deployLink: "https://stalwart-bienenstitch-b0f056.netlify.app/",
+      images: [shan],
+    },
+
+    {
+      title: "SKYMAP-H3",
+      responsive: "Yes",
+      codeLink: "https://github.com/Shan2304/Sky_MapH3",
+      deployed: "Yes",
+      /*deployedIn: "----",*/
+      deployLink: "https://shan-h3-map.netlify.app/",
+      images: [D_1],
+    },
     
     {
       title: "HEALTHLINE-HUB",
